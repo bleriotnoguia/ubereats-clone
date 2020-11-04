@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "name": "temperature",
+        "type": "order"
+    },
+    {
+        "id": 2,
+        "name": "portion size",
+        "type": "order"
+    },
+    {
+        "id": 3,
+        "name": "taste",
+        "type": "order"
+    },
+    {
+        "id": 4,
+        "name": "presentation",
+        "type": "order"
+    },
+    {
+        "id": 5,
+        "name": "other",
+        "type": "order"
+    },
+    {
+        "id": 6,
+        "name": "temperature",
+        "type": "shipping"
+    },
+    {
+        "id": 7,
+        "name": "lack of professionalism",
+        "type": "shipping"
+    },
+    {
+        "id": 8,
+        "name": "Waiting too long",
+        "type": "shipping"
+    },
+    {
+        "id": 9,
+        "name": "damaged command",
+        "type": "shipping"
+    },
+    {
+        "id": 10,
+        "name": "delivered at the wrong door",
+        "type": "shipping"
+    },
+    {
+        "id": 11,
+        "name": "damaged dish",
+        "type": "shipping"
+    },
+    {
+        "id": 12,
+        "name": "ignored shipping instructions",
+        "type": "shipping"
+    },
+    {
+        "id": 13,
+        "name": "invalid vehicle",
+        "type": "shipping"
+    },
+    {
+        "id": 14,
+        "name": "shipping id error",
+        "type": "shipping"
+    },
+    {
+        "id": 15,
+        "name": "other",
+        "type": "shipping"
+    }
+]
