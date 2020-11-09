@@ -132,5 +132,9 @@ class AppServiceProvider extends ServiceProvider
         Invoice::observe(InvoiceObserver::class);
         Shipping::observe(ShippingObserver::class);
         Restaurant::observe(RestaurantObserver::class);
+
+        if(env('REDIRECT_HTTPS')){
+            $url->forceSchema('https');
+        }
     }
 }
