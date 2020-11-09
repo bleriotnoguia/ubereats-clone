@@ -135,7 +135,7 @@ class AppServiceProvider extends ServiceProvider
         Restaurant::observe(RestaurantObserver::class);
 
         if(env('REDIRECT_HTTPS')){
-            $url->forceSchema('https');
+            $url->forceScheme('https');
         }
     }
 }
