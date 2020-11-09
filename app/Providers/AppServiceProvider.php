@@ -20,6 +20,7 @@ use App\Observers\InvoiceObserver;
 use App\Observers\RestaurantObserver;
 use Illuminate\Support\Facades\Auth;
 use App\Observers\UserObserver;
+use Illuminate\Routing\UrlGenerator;
 use OnboardFacade;
 
 class AppServiceProvider extends ServiceProvider
@@ -39,7 +40,7 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
+    public function boot(UrlGenerator $url)
     {
         View::composer('layouts.app', function($view){
             if(Auth::check()){
