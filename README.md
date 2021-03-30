@@ -9,13 +9,13 @@ Build with laravel 5.8
 1) Run in your terminal:
 
 ```
-git clone https://github.com/alcdigital/ubereats-clone.git 
+git clone https://github.com/bleriotnoguia/ubereats-clone.git 
 ```
 1) Set your database information in your .env file ;
 
 2) Run the command bellow 
 
-Download [ubereats.sql](https://github.com/alcdigital/ubereats-clone/blob/master/ubereats.sql) file and import it via mysql in other to create ubereats database and tables.
+Download [ubereats.sql](https://github.com/bleriotnoguia/ubereats-clone/blob/master/ubereats.sql) file and import it via mysql in other to create ubereats database and tables.
 
 ```
 cd path/to/projet

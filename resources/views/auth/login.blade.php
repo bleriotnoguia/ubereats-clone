@@ -3,7 +3,7 @@
   <link rel="stylesheet" href="{{ asset('adminlte/plugins/iCheck/square/blue.css') }}"> 
     <style>
     .content-wrapper{
-      background-image: url(../img/home/background.jpg);
+      background-image: url({{ asset('/img/home/background.jpg') }});
       background-size: cover;
       color: white;
     }
@@ -24,10 +24,16 @@
   <div class="login-logo">
     <a href="/"><b>Uber Eats</b>Log</a>
   </div>
-  <div>
+  <div style="background-color: hsla(0, 0%, 0%, 0.5); padding-bottom: 5px; margin-bottom: 10px;" class="pb-3">
+    <h3 class="text-center text-bold">Demo</h3>
     <ul>
-      <li><b>Email demo :</b> market@ubereatsclone.com</li>
-      <li><b>Password demo :</b> 12345678 </li>
+      <li><b>Email Shop :</b> market@ubereatsclone.com</li>
+      <li><b>Password Shop :</b> secret</li>
+    </ul>
+    <hr>
+    <ul>
+      <li><b>Email Admin :</b> admin@ubereatsclone.com</li>
+      <li><b>Password Admin :</b> 12345678 </li>
     </ul>
   </div>
   <!-- /.login-logo -->

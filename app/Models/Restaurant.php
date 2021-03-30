@@ -263,11 +263,14 @@ class Restaurant extends Model implements HasMedia
     public function getMediaLinksAttribute()
     {
         $mediaLinks = [];
-        // dd($this->getMedia('image'));
-        foreach ($this->getMedia('image') as $key => $media) {
-            $urlParts = explode('public', $media->getPath());
-            $filePath = "storage" . $urlParts[sizeof($urlParts) - 1];
-            array_push($mediaLinks, $filePath);
+        if($this->getMedia('image')->first()){
+            foreach ($this->getMedia('image') as $key => $media) {
+                $urlParts = explode('public', $media->getPath());
+                $filePath = "storage" . $urlParts[sizeof($urlParts) - 1];
+                array_push($mediaLinks, $filePath);
+            }
+        }else{
+            array_push($mediaLinks, '/img/default.png');
         }
         return $mediaLinks;
     }
