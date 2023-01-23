@@ -15,7 +15,7 @@ git clone https://github.com/bleriotnoguia/ubereats-clone.git
 
 2) Run the command bellow 
 
-Download [ubereats.sql](https://github.com/bleriotnoguia/ubereats-clone/blob/main/ubereats.sql) file and import it via mysql in other to create ubereats database and tables.
+Download [ubereats.sql](https://github.com/bleriotnoguia/tchopper/blob/main/ubereats.sql) file and import it via mysql in other to create ubereats database and tables.
 
 ```
 cd path/to/projet
@@ -38,7 +38,7 @@ php artisan ubereats:demo
 
 ## How does the Ubereats Clone API Work ?
 
-Please see [RESTAPI](https://github.com/bleriotnoguia/ubereats-clone/blob/main/RESTAPI.md) for details.
+Please see [RESTAPI](https://github.com/bleriotnoguia/tchopper/blob/main/RESTAPI.md) for details.
 
 ## Useful links
 
@@ -47,7 +47,7 @@ Please see [RESTAPI](https://github.com/bleriotnoguia/ubereats-clone/blob/main/R
 
 ## Change log
 
-Please see [CHANGELOG](https://github.com/bleriotnoguia/ubereats-clone/blob/main/CHANGELOG.md) for more information what has changed recently.
+Please see [CHANGELOG](https://github.com/bleriotnoguia/tchopper/blob/main/CHANGELOG.md) for more information what has changed recently.
 
 ## License
 
