@@ -4,6 +4,10 @@ Build with laravel 5.8
 
 ![Dashboard img](public/img/dashboard.png)
 
+## The Database Schema Design
+
+![DB Schema img](public/img/ubereats-mpd.png)
+
 ## Instal Ubereats Clone Demo
 
 1. Run in your terminal:
@@ -16,7 +20,7 @@ git clone https://github.com/bleriotnoguia/ubereats-clone.git
 
 2. Run the command bellow
 
-Download [ubereats.sql](https://github.com/bleriotnoguia/ubereats-clone/blob/main/ubereats.sql) file and import it via mysql in other to create ubereats database and tables.
+Before run the command, first download [ubereats.sql](https://github.com/bleriotnoguia/ubereats-clone/blob/main/ubereats.sql) file and import it via mysql in other to create ubereats database and tables.
 
 ```
 cd path/to/projet
