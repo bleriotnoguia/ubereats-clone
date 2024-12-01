@@ -22,6 +22,8 @@ git clone https://github.com/bleriotnoguia/ubereats-clone.git
 
 Before run the command, first download [ubereats.sql](https://github.com/bleriotnoguia/ubereats-clone/blob/main/ubereats.sql) file and import it via mysql in other to create ubereats database and tables.
 
+> 😅 I worked on this project in 2019 and at the time I was not yet using [migrations](https://laravel.com/docs/migrations) to build my database
+
 ```
 cd path/to/projet
 php artisan ubereats:install
