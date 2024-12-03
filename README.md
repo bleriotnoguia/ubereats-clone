@@ -46,6 +46,7 @@ php artisan ubereats:demo
 ## How does the Ubereats Clone API Work ?
 
 Please see [RESTAPI](https://github.com/bleriotnoguia/ubereats-clone/blob/main/RESTAPI.md) for details.
+> 😅 In 2019 I was not yet using [swagger](https://github.com/DarkaOnLine/L5-Swagger) to document my APIs
 
 ## Useful links
 
